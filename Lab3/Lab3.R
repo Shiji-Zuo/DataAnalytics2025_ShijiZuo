@@ -1,3 +1,4 @@
+## Exercise 1
 library(class)
 
 abalone.data <- read.csv("/Users/Shiji/Library/CloudStorage/OneDrive-shanghaitech.edu.cn/rpi_first_term/data anlysis/Lab 3/abalone_dataset.csv")
@@ -79,8 +80,7 @@ if (max(acc1) >= max(acc2)){
   cat("Best subset: feature set 2 with k =", k.range[which.max(acc2)])
 }
 
-
-# ---- Packages ----
+## Exercise 2
 suppressPackageStartupMessages({
   library(ggplot2)
   library(factoextra)
